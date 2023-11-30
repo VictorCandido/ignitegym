@@ -22,7 +22,7 @@ const Button = ({ title, variant = 'solid', ...rest }: ButtonProps) => {
         >
             <Text 
                 color={variant === 'outline' ? 'green.500' : 'white' }
-                fontFamily='heading' 
+                fontFamily='heading'
                 fontSize='sm'
             >
                 {title}
